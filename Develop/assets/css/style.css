@@ -4,28 +4,28 @@
     margin: 0;
 }
 
-body { /* 1 */
+body { 
     background-color: #d9dcd6;
 }
 
-/* start .header css */ 
-header { /* 2 */
+/* start header */ 
+header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 { /* 3 */
+header h1 { 
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 #seo { /* 4 */
+header h1 #seo { 
     color: #d9dcd6;
 }
 
-header nav { /* 5 */
+header nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,27 +33,27 @@ header nav { /* 5 */
     font-size: 20px;
 }
 
-header nav ul { /* 6 */
+header nav ul { 
     list-style-type: none;
 }
 
-header nav ul li { /* 7 */
+header nav ul li { 
     display: inline-block;
     margin-left: 25px;
 }
 
-/* end .header css*/
+/* end header */
 
-a { /* 8 */
+a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p { /* 9 */
+p { 
     font-size: 16px;
 }
 
-.hero { /* 10 */
+.hero { 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,25 +62,44 @@ p { /* 9 */
     background-position: center;
 }
 
-/*to float images in southwest section*/
-.float-left { /* 11 */
+/* start content section */
+.float-left { 
     float: left;
     margin-right: 25px;
 }
 
-.float-right { /* 12 */
+.float-right { 
     float: right;
     margin-left: 25px;
 }
 
-.content { /* 13 */
+#content { 
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*southeast section*/
-#benefits { /* 14 */
+.content-card { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-card img { 
+    max-height: 200px;
+}
+
+.content-card h2 { 
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* end #content section */
+
+/* #benefits section */
+#benefits { 
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,49 +110,30 @@ p { /* 9 */
     background-color: #2589bd;
 }
 
-.benefit-item { /* 15 */
+.benefit-item { 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-item h3 { /* 16 */
+.benefit-item h3 { /
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-item img { /* 17 */
+.benefit-item img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* end southeast sechtion */
+/* end #benefits */
 
-
-.content-card { /* 24 */
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-card img { /* 27 */
-    max-height: 200px;
-}
-
-.content-card h2 { /* 30 */
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-footer { /* 33 */
+footer { 
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 { /* 34 */
+footer h2 { 
     font-size: 20px;
 }
